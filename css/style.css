@@ -7,7 +7,7 @@
 
 .primary {
     width: 80%;
-    margin: 0 auto;
+    margin:auto;
 }
 
 /* Header Style  */
@@ -37,20 +37,18 @@
     font-weight: 700;
     font-size: 45px;
 }
-
-.menu ul li {
-    list-style: none;
+.menu-items {
+    display: flex;
+    gap: 50px;
 }
 
-.menu ul li a {
+.menu-items li {
+    list-style: none;
+}
+.menu-items li a {
     color: #424242;
     font-weight: 500;
     font-size: 18px;
-}
-
-ul {
-    display: flex;
-    gap: 50px;
 }
 
 /* Banner Style */
@@ -236,11 +234,19 @@ ul {
     justify-content: space-between;
     margin: 80px 0px;
 }
-.logo{
-    margin-top: 50px;
+
+footer{
+   margin: 90px 0px;
 }
-
-
+.footer-deatils{
+    background-color:  #FFF4E7;
+    width: 80%;
+    margin: 0 auto;
+}
+.footer-deccription{
+    text-align: center;
+    padding: 20px 0px;
+}
 
 
 /* Responsive Style for mobile */
@@ -252,18 +258,20 @@ ul {
     }
 
     .nav-bar,
-    ul,
+    .menu-items,
     .quick-list,
     .features-section,
     .facts,
     .sponsor-logos {
         flex-direction: column;
     }
-    .nav-bar ul {
+    .menu-items {
         margin-top: 20px;
     }
 
-    
+    .logo-name a{
+        font-size: 40px;
+    }
     .banner-title{
         text-align: center;
     }
@@ -273,7 +281,7 @@ ul {
     }
 
     .right-photo img {
-        width: 60vw;
+        width: 75vw;
         margin-top: 30px;
         margin-left: 0px;
     }
@@ -295,7 +303,9 @@ ul {
     .fact{
         margin-left: 50px;
     }
-
+    .p-logo{
+        margin-top: 50px;
+    }
     .hide{
         display: none;
     }
