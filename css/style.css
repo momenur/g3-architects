@@ -181,6 +181,8 @@
     color: #FFFFFF;
 }
 /* Our Achivement Style */
+
+
 .our-achivement{
     margin-top: 100px;
 }
@@ -282,26 +284,8 @@ footer{
     padding: 20px 0px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Responsive Style for mobile */
+ 
+/* Responsive Style for mobile device */
 
 @media only screen and (max-width: 576px) {
     .primary {
