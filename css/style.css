@@ -1,10 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
-
 .primary {
     width: 80%;
     margin:auto;
@@ -54,7 +52,6 @@
 /* Banner Style */
 .banner {
     margin-top: 100px;
-    width: 80%;
 }
 
 .banner-title {
@@ -260,6 +257,7 @@
     color: #727272;
 }
 /*  Our Sponsor Style */
+
 .sponspors-descritpion{
     text-align: center;
     margin-top: 100px;
@@ -270,6 +268,7 @@
     margin: 80px 0px;
 }
 
+/*  Footer Style */
 footer{
    margin: 90px 0px;
 }
@@ -282,6 +281,24 @@ footer{
     text-align: center;
     padding: 20px 0px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Responsive Style for mobile */
@@ -310,6 +327,7 @@ footer{
     }
     .banner-title{
         text-align: center;
+        font-size: 40px;
     }
 
     .photos {
