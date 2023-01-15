@@ -183,7 +183,42 @@
     font-size: 25px;
     color: #FFFFFF;
 }
+/* Our Achivement Style */
+.our-achivement{
+    margin-top: 100px;
+}
+.container{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
 
+}
+.achivement-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color:#FF900E;
+}
+.achivement{
+    background-color: whitesmoke;
+    padding: 25px;
+    border-radius: 8px;
+    border: 3px solid #FF900E;
+}
+.achivement img{
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+    
+}
+.card-title{
+    font-size: 20px;
+    color: #FF900E;
+    font-weight: 700;
+    margin: 10px 0px;
+}
 /* Some Facts Style */
 .some-facts{
     margin-top: 100px;
@@ -262,7 +297,8 @@ footer{
     .quick-list,
     .features-section,
     .facts,
-    .sponsor-logos {
+    .sponsor-logos,
+    .container {
         flex-direction: column;
     }
     .menu-items {
